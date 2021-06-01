@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  
+  <%- include('./partials/head.ejs') %>
+  <body class="p-3 mb-2 bg-info text-dark">
+    
+    <center>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+    <div class="container-md">
+        <img src="img/1.png" class="rounded mx-auto d-block" alt="..." style="width:20%;">
+        <a href="https://www.facebook.com/profile.php?id=100000104432032"><i class="bi bi-facebook" style="font-size: 2rem; color: white; padding-left: 1rem;"></i></a>
+        <a href="https://twitter.com/joeferson_go"><i class="bi bi-twitter" style="font-size: 2rem; color: white; padding-left: 1rem;"></i></a>
+        <a href="https://github.com/joeferson1"><i class="bi bi-github" style="font-size: 2rem; color: white; padding-left: 1rem;"></i></a>
+        <a href="https://www.instagram.com/joefersongo/"><i class="bi bi-instagram" style="font-size: 2rem; color: white; padding-left: 1rem;"></i></a>
+    </div>
+    <br>
+    <form action="/datalist" method="POST">
+      <select class="form-select-sm aria-label=" name="Place">
+        <option selected>Select Timezone</option>
+        <option value="Africa/Accra">Accra</option>
+        <option value="Asia/Manila">Philippines</option>
+        <option value="Asia/Singapore">Singapore</option>
+        <option value="Asia/Dubai">Dubai</option>
+        <option value="America/Puerto_Rico">Puerto Rico</option>
+      </select>
+      <button class="btn btn-outline-light" type="submit">Join</button>
+    </form> 
+    </center>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  </body>
+</html>

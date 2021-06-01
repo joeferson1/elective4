@@ -1,0 +1,31 @@
+{
+  "name": "fi",
+  "version": "1.0.0",
+  "description": "Node_app_final",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "global-time": "^1.4.1",
+    "mongoose": "^5.12.12",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeferson1/webapp1.git"
+  },
+  "keywords": [
+    "node_app"
+  ],
+  "author": "Joeferson Go",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeferson1/webapp1/issues"
+  },
+  "homepage": "https://github.com/joeferson1/webapp1#readme"
+}
